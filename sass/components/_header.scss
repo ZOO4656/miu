@@ -11,9 +11,9 @@ h1 {
     letter-spacing: 0.1em;
     margin-bottom: 5px;
     padding: 10px 10px 0px;
-    color: #555;
+    color: $color-base;
     position: absolute;
-    top: -20px;
+    top: 0px;
 }
 
 .box {
@@ -29,10 +29,9 @@ h1 {
 
 .index li a div{
     display: inline-block;
-    background-color:#fc6;
-    color:#f30;
+    background-color:$border-bottom;
+    color:$color-buttn-base;
     width:150px;
-    height:25px;
     padding: 15px 0px 15px 0px;
     text-align: center;
     border-radius: 45px;
@@ -40,5 +39,5 @@ h1 {
 }
 
 .index li a div:hover{
-    background-color:#fa0;
+    background-color:$border-bottom-hover;
 }

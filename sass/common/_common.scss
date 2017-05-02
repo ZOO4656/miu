@@ -2,25 +2,29 @@
     float: left;
 }
 
-.left__content {
-    width: 600px;
-    background-color: #cafbce;
-    border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #cafbce;
-    color: #0a8915;
+.flame__gleen{
+    background-color: $color-box-shadow;
+    border: 2px solid $color-border-soloe;
+    box-shadow: 0 0 0 2px $color-box-shadow;
+    color: $color-green-fleam;
     margin: 2em 0;
     padding: 1em;
     margin-top: 0;
 }
 
+
+.left__content {
+    width: 600px;
+}
+
 body {
     margin:0;
-    color: #555;
+    color: $color-base;
 }
 
 
 h2 {
-    border-bottom: 2px solid #fc6 ;
+    border-bottom: 2px solid $border-bottom;
 }
 
 h3{
@@ -28,8 +32,8 @@ h3{
 }
 
 .content {
-    background-color: #FFF0E1;
-    border:solid #eee;
+    background-color: $color-content-back;
+    border:solid $color-content-solidline;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -46,7 +50,7 @@ h3{
     letter-spacing: 0.1em;
     margin-bottom: 5px;
     padding: 10px 10px 0px;
-    color: #555;
+    color: $color-base;
     height: 300px;
     width: 500px;
 }
@@ -56,7 +60,7 @@ h3{
     letter-spacing: 0.1em;
     margin-bottom: 5px;
     padding: 10px 10px 0px;
-    color: #555;
+    color: $color-base;
 }
 
 .news__index{

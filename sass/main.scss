@@ -1,5 +1,11 @@
-/* Common */
-@import "common/common";
+/*reset*/
+@import"common/reset";
+
+/*valiables*/
+@import"common/valiables";
+
+/*common*/
+@import"common/common";
 
 /* Header */
 @import "components/header";

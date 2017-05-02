@@ -1,6 +1,5 @@
-<div id="sidebar">
-    <!-- <h1>さいどばあ</h1> -->
-    <div class="right">
+<div class="flame__gleen">
+    <div class="side">
         〒000-0000<br>
         宮崎県えびの市0丁目0−00<br>
         営業時間<br>
