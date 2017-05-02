@@ -1,0 +1,44 @@
+.header_titel{
+    background: url(http://miyanari-cook.com/theme/miyanari-cook/img/header_top_bg.png);
+    height: 80px;
+    margin: 0;
+    padding:0;
+}
+
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+    padding: 10px 10px 0px;
+    color: #555;
+    position: absolute;
+    top: -20px;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.index li {
+    display: inline;
+    list-style-type: none;
+}
+
+
+.index li a div{
+    display: inline-block;
+    background-color:#fc6;
+    color:#f30;
+    width:150px;
+    height:25px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    border-radius: 45px;
+
+}
+
+.index li a div:hover{
+    background-color:#fc0;
+}
