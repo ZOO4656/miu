@@ -2,31 +2,6 @@
 <?php get_header(); ?>
 <!-- /ヘッダー -->
 
-<!-- <?php
-    $options = [
-        'post_type' => 'post',
-        'posts_per_page' => 10,
-    ];
-    $query = new WP_Query($options);
-?>
-
-<?php if ($query->have_posts()) : ?>
-    <?php while ($query->have_posts()) : $query->the_post() ?>
-        <?php the_time( 'Y年m月d日' ); ?>
-        <a href="<?php the_permalink() ?>">
-            <?php the_title() ?>
-        </a>
-        <?php the_content() ?>
-        <?php the_post_thumbnail() ?>
-    <?php endwhile ?>
-<?php else : ?>
-    <p>新しい記事はありません</p>
-<?php endif ?> -->
-
- <!-- <script type="text/javascript" src="sakura.js"></script> --><!-- 桜の花びら -->
-
-
-
         <h2>ようこそカフェmiuへ！</h2>
         <div class="content">
             <div class="left">
@@ -54,13 +29,8 @@
                     <?php get_sidebar(); ?>
                 </div>
         </div>
-    </div><?php get_sidebar()  ?>
-
-
-
-<!-- サイドバー -->
-
-<!-- /サイドバー -->
+    </div>
+    
 
 <!-- フッター -->
 <?php get_footer(); ?>
