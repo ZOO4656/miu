@@ -8,6 +8,7 @@
 
 h1 {
     font-size: 30px;
+    font-weight:bold;
     letter-spacing: 0.1em;
     margin-bottom: 5px;
     padding: 10px 10px 0px;
@@ -39,5 +40,5 @@ h1 {
 }
 
 .index li a div:hover{
-    background-color:$border-bottom-hover;
+    background-color: $border-bottom-hover;
 }
