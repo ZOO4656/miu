@@ -1,0 +1,26 @@
+.Nav {
+    &__body {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 80px 20px;
+    }
+    &__item {
+        list-style: none;
+        margin: 15px 30px;
+        padding: 5px;
+        margin-top: 7px;
+        border: 2px $nav-base solid;
+        opacity: 0.6;
+
+        &:hover {
+            border: 2px $nav-hover solid;
+            opacity: 1.4;
+        }
+    }
+    &__img {
+        width: 110px;
+        height: 50px;
+    }
+}
+
