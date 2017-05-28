@@ -1,0 +1,21 @@
+.HeaderImg {
+    &__head {
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        z-index: 9;
+        font-family: 'Lora', serif;
+        width: 100%;
+        height: 38vw;
+        display: table;
+    }
+    &__body {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        img {
+            width: 100%;
+            filter: blur(2px);
+        }
+    }
+}

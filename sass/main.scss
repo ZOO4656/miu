@@ -1,11 +1,14 @@
-/*reset*/
-@import"common/reset";
+/* reset */
+@import "common/reset";
 
-/*valiables*/
-@import"common/valiables";
+/* fonts */
+@import "common/fonts";
 
-/*common*/
-@import"common/common";
+/* valiables */
+@import "common/valiables";
+
+/* common */
+@import "common/common";
 
 /*nav*/
 @import"components/nav";
@@ -18,3 +21,15 @@
 
 /* Footer */
 @import "components/footer";
+
+/* Header img */
+@import "components/header_img";
+
+/* Main logo box */
+@import "components/main_logo_box";
+
+/* Content box list */
+@import "components/content_box_list";
+
+/* Background image box */
+@import "components/background_image_box";
