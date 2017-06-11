@@ -1,12 +1,12 @@
-.CategoryBox{
-    &__head{
+    .CategoryBox{
+    &__head {
         display: flex;
         justify-content: center;
         font-size: 4.4vw;
         font-family: 'Lora', serif;
         opacity: 0.8;
     }
-    &__body{
+    &__body {
         display: flex;
         justify-content: space-between;
         border-radius: 50%;
@@ -16,9 +16,10 @@
         height: 33vw;
         position: relative;
     }
-    &__foot{
+    &__foot {
         display: flex;
         justify-content: center;
-        padding: 7px;
+        padding: 7px;font-size: 1.7vw;
+        
     }
 }
