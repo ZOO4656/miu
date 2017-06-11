@@ -1,4 +1,4 @@
-    .CategoryBox{
+.CategoryBox {
     &__head {
         display: flex;
         justify-content: center;
@@ -19,7 +19,7 @@
     &__foot {
         display: flex;
         justify-content: center;
-        padding: 7px;font-size: 1.7vw;
-        
+        padding: 7px;
+        font-size: 1.7vw;
     }
 }
