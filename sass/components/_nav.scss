@@ -22,5 +22,9 @@
         width: 110px;
         height: 50px;
     }
+    // $breakpoint-mobile px 以下で適用
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
 }
 
